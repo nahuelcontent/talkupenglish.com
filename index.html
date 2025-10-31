@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TalkUp – Real English in 30 Days. Learn to think and talk in English naturally — without boring grammar or pressure." />
+  <title>TalkUp – Real English in 30 Days</title>
+
+  <style>
+    :root {
+      --primary: #007bff;
+      --dark: #0a0a0a;
+      --light: #ffffff;
+      --accent: #1e90ff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: var(--dark);
+      color: var(--light);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--dark);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      color: var(--light);
+    }
+
+    header nav a {
+      color: var(--light);
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    header nav a:hover {
+      color: var(--accent);
+    }
+
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: linear-gradient(180deg, #000, #020d1c);
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      color: var(--light);
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      color: #ccc;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      background: var(--accent);
+      color: var(--light);
+      padding: 0.8rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #005ecc;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .feature {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .pricing {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .plan {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 2rem;
+      width: 270px;
+      transition: 0.3s;
+    }
+
+    .plan:hover {
+      transform: translateY(-5px);
+      border-color: var(--accent);
+    }
+
+    .plan h3 {
+      color: var(--light);
+      margin-bottom: 1rem;
+    }
+
+    .plan p {
+      color: #aaa;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .price {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background: #000;
+      padding: 2rem;
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+      margin-top: 4rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 2rem;
+      }
+      header nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>🗣️ TalkUp</h1>
+    <nav>
+      <a href="#program">Program</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Learn to think and talk in English naturally</h2>
+    <p>Without boring grammar or pressure. Real English in 30 days.</p>
+    <a href="https://talkup.gumroad.com/l/plus" target="_blank" class="btn">Start Talking Now</a>
+  </section>
+
+  <section id="program">
+    <h2>What You’ll Get</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>🎯 Real-Life English</h3>
+        <p>Learn expressions and phrases you’ll actually use every day.</p>
+      </div>
+      <div class="feature">
+        <h3>⚡ Quick Wins</h3>
+        <p>See progress from day one with short, practical lessons.</p>
+      </div>
+      <div class="feature">
+        <h3>🎧 Listening Training</h3>
+        <p>Improve your ear with natural accents and real conversations.</p>
+      </div>
+      <div class="feature">
+        <h3>🌍 Anywhere, Anytime</h3>
+        <p>Access lessons from any device, whenever you want.</p>
+      </div>
+      <div class="feature">
+        <h3>💬 Community</h3>
+        <p>Join daily challenges and get support from learners worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Choose Your Plan</h2>
+    <div class="pricing">
+      <div class="plan">
+        <h3>Starter</h3>
+        <p>Course + PDFs + Audio + Challenges</p>
+        <div class="price">$39</div>
+        <a href="https://talkup.gumroad.com/l/starter" class="btn" target="_blank">Get Starter</a>
+      </div>
+
+      <div class="plan" style="border-color: var(--accent); background: rgba(0,123,255,0.1);">
+        <h3>TalkUp Plus ⭐</h3>
+        <p>Starter + Community + “30 Real-Life Dialogues”</p>
+        <div class="price">$59</div>
+        <a href="https://talkup.gumroad.com/l/plus" class="btn" target="_blank">Get Plus</a>
+      </div>
+
+      <div class="plan">
+        <h3>Coach Pack</h3>
+        <p>Plus + Speaking Review with Expert Coach</p>
+        <div class="price">$89</div>
+        <a href="https://talkup.gumroad.com/l/coach" class="btn" target="_blank">Get Premium</a>
+      </div>
+    </div>
+    <p style="margin-top: 1rem; color: #999;">💸 7-day money-back guarantee | 🎁 Launch discount: -30% OFF</p>
+  </section>
+
+  <section id="contact">
+    <h2>Join TalkUp</h2>
+    <p>Start your 30-day challenge and feel fluent in real English.</p>
+    <a href="https://talkup.gumroad.com/l/plus" target="_blank" class="btn">Join Now</a>
+  </section>
+
+  <footer>
+    <p>© 2025 TalkUp. All rights reserved.</p>
+    <p>Follow us on <a href="https://instagram.com/talkupenglish" target="_blank">@talkupenglish</a></p>
+  </footer>
+</body>
+</html>
